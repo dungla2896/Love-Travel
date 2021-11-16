@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #000;
+    --text-color: #555555;
+    --text-color-2: #9a9a9a;
+    --white-color: #fff;
+    --border-color: #ccc;
+
+    --saphire-color: #14b9d5;
+    --green-color: #1bbc9b;
+    --rose-color: #f76570;
+    --orange-color: #f3a46b;
+    --yellow-color: #ffd205;
+    --purple-color: #ba71da;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.background-yellow-icon {
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.background-rose-icon {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.background-purple-icon {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.background-green {
+    background: linear-gradient(to right, #1bbc9b 0%, #1bbc63 100%);
+}
+
+.background-orange {
+    background: linear-gradient(to right, #f3a46b 0%, #f3c96b 100%);
+}
+
+.background-saphire {
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+}
+
+.background-yellow {
+    background-color: var(--yellow-color);
+}
+
+.background-rose {
+    background-color: var(--rose-color);
+}
+
+.background-purple {
+    background-color: var(--purple-color);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
